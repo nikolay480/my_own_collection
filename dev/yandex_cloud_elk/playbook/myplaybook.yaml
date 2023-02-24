@@ -1,0 +1,6 @@
+---
+- name: Check my module
+  hosts: localhost
+  tasks:
+    - name: Create_file
+      roles: single_task_role

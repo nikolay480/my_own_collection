@@ -1,0 +1,4 @@
+---
+# defaults file for single_task_role
+path: /tmt/newfile.txt
+content: There could be your message here
