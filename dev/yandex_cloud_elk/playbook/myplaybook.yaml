@@ -1,6 +1,5 @@
 ---
-- name: Check my module
+- name: PLAY_test
   hosts: localhost
-  tasks:
-    - name: Create_file
-      roles: single_task_role
+  roles: 
+    - role: single_task_role

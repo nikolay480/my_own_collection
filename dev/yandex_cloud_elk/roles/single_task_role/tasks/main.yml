@@ -1,6 +1,6 @@
 ---
 # tasks file for single_task_role
-- Сreate file:
-      ansible.modules.my_own_module:
-        path: "/tmp/file.txt"
-        content: "test text message"
+- name: Сreate file
+  my_own_module:
+    path: /tmp/file.txt
+    content: test text message
