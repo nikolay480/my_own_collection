@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  collections:
+    - dev.yandex_cloud_elk  
+  tasks: 
+    - name: test
+      my_own_module:
+        path: /tmp/file5.txt
+ 

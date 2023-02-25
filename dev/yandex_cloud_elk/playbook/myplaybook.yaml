@@ -1,5 +1,0 @@
----
-- name: PLAY_test
-  hosts: localhost
-  roles: 
-    - role: single_task_role
